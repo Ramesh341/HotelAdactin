@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Test Case1">
+<parameter name="Name" value="UTest1"></parameter>
+<classes>
+<class name="org.frameworks.com.Ex_TestNG_Parameterization_Test"/>
+</classes>
+</test>
+<test name="Test Case2">
+<parameter name="Pass" value="UTest321"></parameter>
+<classes>
+<class name="org.frameworks.com.Ex_TestNG_Parameterization_Test"/>
+</classes>
+</test>
+
+
+</suite>

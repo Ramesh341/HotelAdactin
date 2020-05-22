@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Test">
+<groups>
+<run>
+<include name="Apple"/>
+<include name="Vivo"/>
+<include name="Samsung"/>
+</run>
+</groups>
+<classes>
+<class name="org.frameworks.com.Ex_TestNG_How_to_group_Test"/>
+</classes>
+</test>
+</suite>
